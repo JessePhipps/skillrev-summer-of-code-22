@@ -5,15 +5,18 @@
   </nav>
   <LoginControl />
   <router-view />
+  <FooterSection />
 </template>
 
 <script>
 import LoginControl from '@/components/LoginControl.vue';
+import FooterSection from '@/components/FooterSection.vue';
 
 export default {
   name: 'App',
   components: {
     LoginControl,
+    FooterSection,
   },
 };
 </script>
